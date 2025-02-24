@@ -5,7 +5,7 @@ title: "Applied Data Science Project Documentation"
 categories: ITD214
 ---
 ## Project Background
-Provide an overview of your team's project business goals and objectives and state the objective that you are working on. 
+**Provide an overview of your team's project business goals and objectives and state the objective that you are working on.**
 
 Analyse global news, industry discussions, government policies, and customer feedback from Jan 2024 till-date, to help Tech giant (Apple) identify risks and/or opportunities and plan for its next iPhone^ rollout. 
 
