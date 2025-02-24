@@ -1,7 +1,7 @@
 ---
-layout: post
+Objective: Analyse global online journals and news articles to sources which contain emerging risks and/or opportunities, enabling proactive decision-making
 author: Benjamin Leong
-title: "Applied Data Science Project Documentation"
+title: "Applied Data Science Project Documentation Objective 1"
 categories: ITD214
 ---
 ## Project Background
