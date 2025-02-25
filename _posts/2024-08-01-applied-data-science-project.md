@@ -85,14 +85,23 @@ Changing to 12 topics, coherence score is 0.36738.
 ## Recommendation and Analysis
 ### Final Recommendation (for n=10 topics)
 Topic 0: This topic is **relevant** to Apple in terms of AI, chips, and gaming (Switch, Nintendo). While Apple focuses on AI, chips, and gaming integration through platforms like Apple Arcade, it's more directly associated with gaming and technology.
+
 Topic 1: This topic is **highly relevant** due to Apple's focus on data security and privacy, particularly in the context of their user data protection measures. Apple's reputation centers on its commitment to user security.
+
 Topic 2: Apple has **less relevancy** connected to topics like Musk, Galaxy, and cancer, but the AI and data aspects have relevance, particularly in how AI is used in Apple's products (like Siri and machine learning models).
+
 Topic 3: This topic is **highly relevant** to Apple, as it focuses on AI, technology, digital systems, and business solutions, all core aspects of Apple's operations in developing cutting-edge products and services.
+
 Topic 4: This topic seems **less relevant** to Apple, as it pertains more to medical studies, particularly periodontitis and treatment, which doesn't directly tie into Apple's primary focus on consumer tech
+
 Topic 5: This topic appears **less relevant**, though the mention of switch could loosely connect to Apple’s hardware and industry focus, but the rest is less aligned with their focus.
+
 Topic 6: This topic is **relevant**, given the mention of AI, technology, business, and innovation. Apple's commitment to innovation and the tech industry makes this highly aligned with their brand
+
 Topic 7: This topic is **somewhat relevant** due to the AI, China, and data aspects. While Apple has significant operations in China, the topic also includes references to other entities like Meta and specific AI tools, which may not be as directly aligned.
+
 Topic 8: This topic is **relevant** due to the focus on AI, technology, security, and digital business, aligning with Apple's areas of focus, especially with regard to AI and security features in their devices.
+
 Topic 9: This topic is **not directly relevant** to Apple, as it focuses on health studies like vitamin, stroke, and typhoid, which don't align with Apple’s core business areas.
 
 To achieve the business objective, the next step would be to only pull out the articles related to the relevant topics (and remove the rest) for management to have a read.
