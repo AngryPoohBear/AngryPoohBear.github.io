@@ -12,7 +12,7 @@ Main Project Objective: **Analyse global news, industry discussions, government 
 ## Work Accomplished
 The business objective #1 that I am currently working on is to "Analyse global online journals and news articles to sources which contain emerging risks and/or opportunities, enabling proactive decision-making".
 
-![alt text](images/Obj1_Main.PNG)
+![alt text](Obj1_Main.PNG)
 
 I will take the following steps to perform my analysis, as part of the CRISP-DM model.
 
