@@ -168,6 +168,4 @@ This would fulfil busines objective #1.
 ## Source Codes and Datasets
 Upload your model files and dataset into a GitHub repo and add the links below.
 
-[Jupyter Notebook Scripts](script.zip)
-
-[Data Sources](Data_Sources.zip)
+https://github.com/AngryPoohBear/ITD214-6653687B
