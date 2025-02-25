@@ -21,7 +21,9 @@ I will take the following steps to perform my analysis, as part of the CRISP-DM 
 ### Data Understanding
 There are 3 steps I will need to take to identify emerging risks and/or opportunities to enable proactive decision making.
 - 1st: Identify annual reports that could be of relevance based on the following pre-identified key risks - Human Capital Risk and ESG Risk (Climate). For the purpose of this example I will be looking at only ESG Risk (Climate).
+
 - 2nd: After cleaning the data (stopwords, etc), use term frequency analysis to find common words within these reports to build up relevant keywords. For the purpose of this example I will be using the file Climate Action Network. The Climate Action Network has developed trackers that measure how countries around the world are progressing in their climate change goals and renewable energy targets.
+
 - 3rd: Use a webscrapper (ParseHub) to scrape text off news articles using these keywords to find relevant articles pertaining to these risks.
 
 **This analysis will be split into 2 parts:**
@@ -34,6 +36,7 @@ Part B (Using Keywords identified from Part A to scrape relevant news articles)
 ![alt text](DataPrepA_Sample.PNG)
 
 2. Performing text processing - Tokenize into sentences and words, remove punctuations, stopwords and numbers.
+
 3. Perform stemming and lemmatization
 
 Output as follows:
@@ -58,16 +61,16 @@ Data Breakdown - 10 pages, 116 articles (Refer to "Content" column for analysis)
 
 ![alt text](DataPrepB_Sample.PNG)
 
-3. Perform text-proprocessing
+2. Perform text-proprocessing
   a. Tokenize into sentences and words
   b. Remove punctuations, stopwords and numbers
   c. Perform stemming and lemmatization
 
-4. Filter articles based on ESG keywords found in Part A and keep only articles that have these keywords.
+3. Filter articles based on ESG keywords found in Part A and keep only articles that have these keywords.
 
 ![alt text](DataPrepB_Process.PNG)
 
-5. Prepare word representation to begin performing LDA analysis for data modelling.
+4. Prepare word representation to begin performing LDA analysis for data modelling.
 
 ### Modelling (Only applies to Part B)
 Start by creating an LDA model with 10 topics and 10 words in each topic.
@@ -92,7 +95,9 @@ To further improve the model, find out the coherence score. Perform a test of to
 ![alt text](Coherence2.PNG)
 
 Currently at 10 topics, coherence score is 0.34517. 
+
 Changing to 12 topics, coherence score is 0.36738.
+
 **The coherence score suggests that 12 topics provide the most interpretable and meaningful structure in the data.**
 
 ## Recommendation and Analysis
