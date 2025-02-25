@@ -83,7 +83,7 @@ Changing to 12 topics, coherence score is 0.36738.
 **The coherence score suggests that 12 topics provide the most interpretable and meaningful structure in the data.**
 
 ## Recommendation and Analysis
-###Final Recommendation (for n=10 topics)
+### Final Recommendation (for n=10 topics)
 Topic 0: This topic is **relevant** to Apple in terms of AI, chips, and gaming (Switch, Nintendo). While Apple focuses on AI, chips, and gaming integration through platforms like Apple Arcade, it's more directly associated with gaming and technology.
 Topic 1: This topic is **highly relevant** due to Apple's focus on data security and privacy, particularly in the context of their user data protection measures. Apple's reputation centers on its commitment to user security.
 Topic 2: Apple has **less relevancy** connected to topics like Musk, Galaxy, and cancer, but the AI and data aspects have relevance, particularly in how AI is used in Apple's products (like Siri and machine learning models).
@@ -97,7 +97,7 @@ Topic 9: This topic is **not directly relevant** to Apple, as it focuses on heal
 
 To achieve the business objective, the next step would be to only pull out the articles related to the relevant topics (and remove the rest) for management to have a read.
 
-###Suggestions for improvement
+### Suggestions for improvement
 *How can we further improve the model?*
 1. Adding additional stopwords in stop_words to the pre-processing stage to improve the quality of the text data used by the model, or using a consultantancy service to determine which words should fit a particular category.
 ![alt text](stopwords.PNG)
@@ -109,7 +109,7 @@ A more refined keyword list means the filtering process removes irrelevant artic
 
 3. Lastly, in a real-life scenario and fully achieve the actual business objective, to scrape additional sources covering a wide range of topics, not just limiting to digital journal which covers mainly tech news. This is because Apple would have other emerging risks such as Geopolitical, Infrastructure risk which would have to be taken into account.
 
-###Next Steps
+### Next Steps
 Based on the highly relevant topics (Topic 1,3,6,8), Apple can perform the following next steps:
 
 **Topic 1: Data Security**
