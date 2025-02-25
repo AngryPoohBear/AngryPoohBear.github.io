@@ -167,5 +167,7 @@ This would fulfil busines objective #1.
 
 ## Source Codes and Datasets
 Upload your model files and dataset into a GitHub repo and add the links below.
-[a relative link](script.zip)
-[a relative link](Data_Sources.zip)
+
+[Jupyter Notebook Scripts](script.zip)
+
+[Data Sources](Data_Sources.zip)
