@@ -166,4 +166,6 @@ This would fulfil busines objective #1.
 **Transparency**: LDA can be a black box, making it hard to explain its results. Provide clear visualizations and documentation to ensure stakeholders understand how the model works.
 
 ## Source Codes and Datasets
-Upload your model files and dataset into a GitHub repo and add the link here. 
+Upload your model files and dataset into a GitHub repo and add the links below.
+[a relative link](script.zip)
+[a relative link](Data_Sources.zip)
