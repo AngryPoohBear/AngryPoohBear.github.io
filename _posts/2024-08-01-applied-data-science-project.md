@@ -11,9 +11,11 @@ Main Project Objective: **Analyse global news, industry discussions, government 
 
 ## Work Accomplished
 The business objective #1 that I am currently working on is to "Analyse global online journals and news articles to sources which contain emerging risks and/or opportunities, enabling proactive decision-making".
+
 ![alt text](Obj1_Main.PNG)
 
 I will take the following steps to perform my analysis, as part of the CRISP-DM model.
+
 ![alt text](ProjPlan.PNG)
 
 ### Data Understanding
@@ -28,19 +30,24 @@ Part B (Using Keywords identified from Part A to scrape relevant news articles)
 
 ### Data Preparation for Part A
 1. Extract text from a downloaded PDF File - Climate Action Network.pdf (Total of 87 pages).
+
 ![alt text](DataPrepA_Sample.PNG)
 
 2. Performing text processing - Tokenize into sentences and words, remove punctuations, stopwords and numbers.
 3. Perform stemming and lemmatization
 
 Output as follows:
+
 **Top 20 words after stemming and lemmatization**
+
 ![alt text](DataPrepA_Output.PNG)
 
 **Word Frequency Graph**
+
 ![alt text](DataPrepA_WordFreq.PNG)
 
 **WordCloud**
+
 ![alt text](DataPrepA_WordCloud.PNG)
 
 *The list of 200 words will be used for filtering articles that have been webscrapped from a news website (Digital Journal) to increase its relevance to the ESG sector.*
@@ -48,23 +55,27 @@ Output as follows:
 ### Data Preparation for Part B (Using Keywords in Part B)
 1. Use Parsehub to scrape from Digital Journal (10 pages worth)
 Data Breakdown - 10 pages, 116 articles (Refer to "Content" column for analysis)
+
 ![alt text](DataPrepB_Sample.PNG)
 
-2. Perform text-proprocessing
+3. Perform text-proprocessing
   a. Tokenize into sentences and words
   b. Remove punctuations, stopwords and numbers
   c. Perform stemming and lemmatization
 
-3. Filter articles based on ESG keywords found in Part A and keep only articles that have these keywords.
+4. Filter articles based on ESG keywords found in Part A and keep only articles that have these keywords.
+
 ![alt text](DataPrepB_Process.PNG)
 
-4. Prepare word representation to begin performing LDA analysis for data modelling.
+5. Prepare word representation to begin performing LDA analysis for data modelling.
 
 ### Modelling (Only applies to Part B)
 Start by creating an LDA model with 10 topics and 10 words in each topic.
 
 Output as follows:
+
 **LDA Model**
+
 ![alt text](LDA1.PNG)
 
 ![alt text](LDA2.PNG)
@@ -73,9 +84,11 @@ There is a high focus on AI, Data and Technology. This is in-line with Digital J
 
 ### Evaluation
 To further improve the model, find out the coherence score. Perform a test of topics from range (2,20)
+
 ![alt text](Coherence1.PNG)
 
 **Coherence Graph**
+
 ![alt text](Coherence2.PNG)
 
 Currently at 10 topics, coherence score is 0.34517. 
@@ -109,6 +122,7 @@ To achieve the business objective, the next step would be to only pull out the a
 ### Suggestions for improvement
 *How can we further improve the model?*
 1. Adding additional stopwords in stop_words to the pre-processing stage to improve the quality of the text data used by the model, or using a consultantancy service to determine which words should fit a particular category.
+
 ![alt text](stopwords.PNG)
 
 Filtering such words prevents bias where the model overweighs frequently occurring but uninformative terms (in this example, the term ‘u’).
