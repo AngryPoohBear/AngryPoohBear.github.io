@@ -22,7 +22,7 @@ There are 3 steps I will need to take to identify emerging risks and/or opportun
 - 2nd: After cleaning the data (stopwords, etc), use term frequency analysis to find common words within these reports to build up relevant keywords. For the purpose of this example I will be using the file Climate Action Network. The Climate Action Network has developed trackers that measure how countries around the world are progressing in their climate change goals and renewable energy targets.
 - 3rd: Use a webscrapper (ParseHub) to scrape text off news articles using these keywords to find relevant articles pertaining to these risks.
 
-**This analysis will be split into 2 parts:
+**This analysis will be split into 2 parts:**
 Part A (Extracting Keywords from the Topic Journal)
 Part B (Using Keywords identified from Part A to scrape relevant news articles)
 
