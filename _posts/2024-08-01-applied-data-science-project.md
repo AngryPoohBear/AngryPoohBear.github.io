@@ -169,3 +169,7 @@ This would fulfil busines objective #1.
 Upload your model files and dataset into a GitHub repo and add the links below.
 
 https://github.com/AngryPoohBear/ITD214-6653687B
+
+Disclaimer: 
+"Pull out data" can be used for different data sources that are scrapped. (In this case it is Digital Journal)
+For "Top 50 from Journals.ipynb", the keywords can be changed accordingly based on the topic. (In this case it is Climate Action Network)
